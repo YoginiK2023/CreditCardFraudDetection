@@ -7,7 +7,8 @@ RUN python3 -m pip install --upgrade pip
 ADD ./python_requirements.txt /
 RUN python3 -m pip install -r python_requirements.txt
 
-ADD ./.py /
+ADD ./python.py /
+
 ADD ./server.py /
 
 
